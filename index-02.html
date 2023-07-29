@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style-02.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="draw-area" id="drawArea"></div>
+      
+      <div>
+        <h1>Demo Конструктора склада v0.2</h1>
+        <p>Щёлкни мышкой - нарисуй стеллаж</p>
+        <h2>Правила:</h2>
+        <ul>
+          <li>Сначала рисуем стены, потом стеллажи</li>
+          <li>Нельзя рисовать стеллажи вплотную к стене</li>
+          <li>Нельзя рисовать стеллажи скученно</li>
+          <li>Используй ластик, если нарисовал неправильно</li>
+        </ul>
+        <div>Всего нарисовал: <span id="counterSpan"></span> стеллажей</div>
+        <div>
+        <button id="button-wall">Рисуем стены</button>
+        <button id="button-rack">Рисуем стеллаж</button>
+        <button id="button-cleaner">Ластик</button>
+      </div>
+      </div>
+    </div>
+    <script src="script-02.js" defer></script>
+  </body>
+</html>

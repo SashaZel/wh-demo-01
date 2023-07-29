@@ -1,0 +1,67 @@
+body {
+  background-color:palegoldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 8px;
+  padding: 8px;
+  min-width: 200px;
+  display: block;
+  color: white;
+  background-color: gray;
+  border: gray;
+}
+
+.button_active {
+  background-color: #fff;
+  color: gray;
+  border: 2px solid olivedrab;
+}
+
+.container {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  width: 1400px;
+  background-color: ghostwhite;
+  border-radius: 16px;
+  box-shadow: 5px 5px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.draw-area {
+  margin-right: 36px;
+  width: 332px;
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  cursor: crosshair;
+}
+
+.cell {
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  background-color: ghostwhite;
+  border: 1px solid lightgray;
+  color: transparent;
+  user-select: none;
+}
+
+.el-1 {
+  background-color: forestgreen;
+  border: 1px solid lightgray;
+}
+
+.el-2 {
+  background-color: slategray;
+  border: 1px solid gray;
+}
+
+.invalid-cell {
+  border: 1px solid red;
+}
+
